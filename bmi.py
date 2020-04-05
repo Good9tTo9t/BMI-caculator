@@ -17,3 +17,5 @@ elif BMI > 24 and BMI < 28:
     print("BMI為" + BMIStr + "，有點胖啦")
 elif BMI >= 28:
     print("BMI為" + BMIStr + "，太胖了啦")
+input("按enter離開:")
+exit()
