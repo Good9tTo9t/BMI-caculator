@@ -1,10 +1,8 @@
 print("BMI計算機，By Hiro 2020/03/28 ver 1.0")
-weight = input("請輸入體重(公斤): ")
-weight = float(weight)
-heightCM = input("請輸入身高(公分): ")
-heightCM = float(heightCM)
+weight = float(input("請輸入體重(公斤): "))
+heightCM = float(input("請輸入身高(公分): "))
 print("計算中...")
-heightM = float(heightCM / 100)
+heightM = heightCM / 100
 heightSquare = heightM ** 2
 BMI = weight / heightSquared
 
