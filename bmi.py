@@ -3,8 +3,7 @@ weight = float(input("請輸入體重(公斤): "))
 heightCM = float(input("請輸入身高(公分): "))
 print("計算中...")
 heightM = heightCM / 100
-heightSquare = heightM ** 2
-BMI = weight / heightSquared
+BMI = weight / (heightM ** 2)
 
 if BMI < 19:
     print("BMI為%f，太瘦了啦"%(BMI))
