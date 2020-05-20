@@ -1,3 +1,5 @@
+import os
+os.system('title BMI計算機')
 print("BMI計算機，By Hiro 2020/03/28 ver 1.0")
 weight = float(input("請輸入體重(公斤): "))
 heightCM = float(input("請輸入身高(公分): "))
